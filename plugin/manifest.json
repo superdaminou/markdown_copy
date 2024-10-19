@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "MakdownCopy",
+    "version": "1.0",
+  
+    "description": "Permet de copier rapidement le lien de la page au format markdown",
+  
+    "icons": {
+      "48": "icons/pink_poney.png"
+    },
+
+    "permissions": ["activeTab"],
+
+    "browser_action": {    
+        "default_icon": "icons/pink_poney.png",
+        "default_title": "Copy"
+    },
+    "background": {
+        "scripts": ["src/background.js"]
+    }
+    
+  }
+  
